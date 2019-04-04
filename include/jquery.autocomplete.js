@@ -16,7 +16,7 @@ $(function(){
     'use strict';   //严格模式
     var $searchInput = $('#wd');              //设置显示控件
     var $autocomplete  =$('#word');           //设置输入控件
-    var $api  ='./api.php?wd=';                //设置api
+    var $api  ='https://x3.nohacks.cn/api.php?wd=';                //设置api
 	
     $searchInput.attr('autocomplete','off'); 
     var selectedItem = null; 
